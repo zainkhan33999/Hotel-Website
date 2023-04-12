@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   overflow-x: hidden;
+}
+html body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1.73em;
+}
+a{
+    color: #333;
+    text-decoration: none
+}
+h1 h2 h3{
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px; 
+    overflow: auto;
+}
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+   
+}
+#navbar h1{
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+   
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+     float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover{
+color:#70a57e;
+background-color:#444}
+
+#header{
+ background: linear-gradient(to top left, rgba(51, 51, 51, 0.5), rgba(15, 207, 89, 0.4)), url("/img/background.jpg") no-repeat center center/cover;
+height: 96vh;
+text-align: center;
+color: #fff;
+
+}
+#header .header-content{
+    margin-top: 260px;
+}
+
+header .header-content h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.7;
+} 
+.text{
+    font-size: 20px;
+}
+.text-color{
+    color: #70a57e;
+}
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 8px 17px;
+    display: inline-block;
+    margin-top:20px ;
+}
+.btn:hover{
+    color:#70a57e;
+    background-color:#444;
+}
+#intro-section{
+    height: 100vh;
+    background-color: #444;
+}
+#intro-section .intro-img{
+    background: url('/img/intro.jpg') no-repeat center center/cover;
+    width: 50%;
+    float: left;
+    min-height: 100%;
+}
+#intro-section .intro-content{
+    text-align: center;
+    float: right;
+    width: 50%;
+    padding: 0 50px ;
+    padding-top: 300px;
+    color:white;
+     
+}
+.box{
+   width:33.3%;
+    float: left;
+    background-color: #eee;
+    color: #333;
+    padding:50px 20px;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: #70a57e;
+}
+#footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+#footer p{
+    margin: 20px;
+}
+
+
+
+
+
